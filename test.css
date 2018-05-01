@@ -1,0 +1,49 @@
+* {
+    width: 100%;
+}
+header, footer {
+    display: block;
+    height: 10%;
+    position: fixed;
+}
+header {
+    background-color: aqua;
+    opacity: 0.5;
+    top: 0;
+}
+footer {
+    background-color: turquoise;
+    opacity: 0.5;
+    bottom: 0;
+}
+#floor {
+    background-color: black;
+    border: .25rem dashed white;
+    border-radius: 50%;
+    height: 75%;
+    width: 95%;
+    padding: 1.25%;
+    margin: 1.25%;
+    top: 10%;
+    position: fixed;
+    z-index: 0;
+}
+#partners {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: .5rem;
+    position: relative;
+    z-index: 2;
+}
+#lead, #follow {
+    display: block;
+    height: 1rem;
+    width: 1rem;
+}
+#lead {
+    background: blue;
+}
+#follow {
+    background: red;
+}
